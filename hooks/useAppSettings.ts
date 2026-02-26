@@ -27,6 +27,10 @@ export function useAppSettings() {
       title: LABELS.COMMON.MENU.MASTER_MAP,
       href: "/mastermap",
     },
+    {
+      title: "CROPS",
+      href: "/crops",
+    },
   ]
 
   return {

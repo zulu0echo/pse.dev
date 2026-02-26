@@ -1,0 +1,5199 @@
+{
+  "projects": [
+    {
+      "id": "csp",
+      "name": "Client-Side Proving (CSP)",
+      "shortDescription": "Benchmark ZKP systems, bridge ecosystem gaps, push toward PQ-sound on-chain verification.",
+      "ownerTeam": "PSE: Private Proving",
+      "tags": [
+        "Benchmarks",
+        "Post-quantum",
+        "WHIR",
+        "GPU Accel"
+      ],
+      "status": "active",
+      "githubRepoUrl": "https://github.com/privacy-ethereum/csp-benchmarks"
+    },
+    {
+      "id": "mopro",
+      "name": "Mopro",
+      "shortDescription": "Mobile-first proving infrastructure. Native provers for Swift/Kotlin/RN/Flutter. GPU crypto libraries.",
+      "ownerTeam": "PSE: Private Proving",
+      "tags": [
+        "Mobile",
+        "GPU",
+        "zkVM"
+      ],
+      "status": "active",
+      "githubRepoUrl": "https://github.com/zkmopro"
+    },
+    {
+      "id": "zkid",
+      "name": "zkID",
+      "shortDescription": "Privacy-preserving identity proofs. OpenAC wallet unit aligned with EUDI. ZK-friendly primitives.",
+      "ownerTeam": "PSE: Private Proving",
+      "tags": [
+        "Identity",
+        "EUDI",
+        "OpenAC",
+        "Standards"
+      ],
+      "status": "active",
+      "githubRepoUrl": "https://github.com/privacy-scaling-explorations/zkID"
+    },
+    {
+      "id": "tlsnotary",
+      "name": "TLSNotary",
+      "shortDescription": "Cryptographic proofs of web data authenticity using TLS and MPC. On track toward 1.0 release.",
+      "ownerTeam": "PSE: Private Proving",
+      "tags": [
+        "zkTLS",
+        "MPC",
+        "SDK"
+      ],
+      "status": "active",
+      "githubRepoUrl": "https://github.com/tlsnotary"
+    },
+    {
+      "id": "machina",
+      "name": "Machina iO",
+      "shortDescription": "Practical indistinguishability obfuscation. Noise refreshing, blind PRF over key-homomorphic encodings.",
+      "ownerTeam": "PSE: Private Writes",
+      "tags": [
+        "iO",
+        "GGH15",
+        "Lattice",
+        "FHE"
+      ],
+      "status": "active",
+      "githubRepoUrl": "https://github.com/MachinaIO/"
+    },
+    {
+      "id": "ptr",
+      "name": "Private Transfers (Research)",
+      "shortDescription": "Plasmablind, Sonobe folding library, Wormholes v2, one-time programs and stealth mixers.",
+      "ownerTeam": "PSE: Private Writes",
+      "tags": [
+        "Plasmablind",
+        "Sonobe",
+        "Wormholes",
+        "Folding"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "pte",
+      "name": "Private Transfers (Engineering)",
+      "shortDescription": "Benchmark protocols, prototype L2 precompiles, gas analysis, specify native shielded pools.",
+      "ownerTeam": "PSE: Private Writes",
+      "tags": [
+        "L2 Precompiles",
+        "Benchmarks",
+        "RIPs",
+        "Shielded Pools"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "iptf",
+      "name": "IPTF",
+      "shortDescription": "Institutional Privacy Task Force. PoCs, architecture reviews, workshops, market map.",
+      "ownerTeam": "PSE: Private Writes",
+      "tags": [
+        "Institutional",
+        "PoCs",
+        "Workshops",
+        "Market Map"
+      ],
+      "status": "active",
+      "githubRepoUrl": "https://github.com/ethereum/iptf-map"
+    },
+    {
+      "id": "pir",
+      "name": "PIR",
+      "shortDescription": "PIR schemes tailored for Ethereum state and history. Optimized for wallets, frontends, tax software, dApps.",
+      "ownerTeam": "PSE: Private Reads",
+      "tags": [
+        "PIR",
+        "Private state"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "ubt",
+      "name": "UBT",
+      "shortDescription": "Provably L1-equivalent EL node using UBT data structure. MPT-equivalent.",
+      "ownerTeam": "PSE: Private Reads",
+      "tags": [
+        "UBT",
+        "EIP7864",
+        "Execution layer"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "tor-js",
+      "name": "tor-js",
+      "shortDescription": "Arti Tor client in-browser for anonymized RPC. Kohaku integration for plug-in anonymous routing in wallets and frontends.",
+      "ownerTeam": "PSE: Private Reads",
+      "tags": [
+        "Arti",
+        "Tor",
+        "Kohaku"
+      ],
+      "status": "active",
+      "githubRepoUrl": "https://github.com/voltrevo/arti/tree/wasm-arti-client/crates/tor-js"
+    }
+  ],
+  "scorecards": [
+    {
+      "id": "sc-2026q1-csp",
+      "projectId": "csp",
+      "periodLabel": "2026 Q1",
+      "isCurrent": true,
+      "tier1": {
+        "overallStatus": "pass",
+        "override": {
+          "enabled": false,
+          "status": "pass",
+          "reason": ""
+        },
+        "criteria": {
+          "t1_crops_censorship_no_selective_exclusion": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_censorship_no_kill_switches": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_censorship_resistant_pressure": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_censorship_permissionless_broadcast": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_privileged_paths": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_hidden_specs": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_fully_auditable": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_fully_forkable": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_proprietary_blackbox": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_free_license": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_friction_fork_exit": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_data_not_exposed": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_viable_at_protocol": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_no_prove_for_privacy": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_avoid_data_capture_asymmetry": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_defaults_maximal": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_does_what_claims": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_rigorous_design": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_minimize_governance_override": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_minimize_complexity": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_no_new_migration_risks": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_protects_against_failure_coercion": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_limits_no_centralized_chokepoints": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_limits_no_decentralize_later_without_sunset": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          }
+        }
+      },
+      "tier2": {
+        "rollup": 0,
+        "criteria": {
+          "t2_sovereignty_final_authority": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_sovereignty_credible_exit": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_sovereignty_no_new_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_contributes_decentralization": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_increases_resilience": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_reduces_ef_reliance": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_walkaway_test": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_maximally_unstoppable": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_avoids_centralized_intermediaries": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_no_privileged_routing": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_no_secret_intermediary": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_no_whitelist_without_elimination": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_avoids_dependency_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_high_necessity_new_domains": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_crypto_over_social_trust": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_reusable_primitives": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_ux_without_control_points": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_social_avoids_private_capture": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_social_avoids_extraction_architectures": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_social_resilience_over_growth": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_prefer_crops_native": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_remove_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_user_controlled_defenses": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_no_uninspectable_ai": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_open_markets_over_whitelist": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          }
+        }
+      },
+      "tier3": {
+        "rollup": 0,
+        "criteria": {
+          "t3_scaling_expands_sovereignty": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_scaling_sovereignty_at_scale": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_scaling_not_at_crops_cost": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_focus": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_bottlenecks": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_prevents_chokepoints": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_sustainable_funding_gaps": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_designed_for_diffusion": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_transition_stewardship": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_reduces_ef_influence": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_no_permanent_dependency": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_upstream_high_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_reusable_primitives": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_shared_infra": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_durable_precedents": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_embodies_crops": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_technical_rigor": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_legible_documentation": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_publishes_early_openly": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_ships_reliability": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_right_association": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_encourages_independence": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_open_collab_over_moat": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_advances_ethereum_beyond_crypto": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_civilizational_infra": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_consumer_app_team": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_accreditation_authority": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_hype_price": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_kingmaker": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_tradeoff_evaluate_design_not_polish": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_tradeoff_skeptical_social_proof": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_thousand_year": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_no_principled_drift": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_sanctuary_infra": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_strengthens_agency": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          }
+        }
+      },
+      "summary": "Initial assessment based on public sources: pse.dev, GitHub repos, HackMD, project docs, and license (MIT/Apache-2.0). Tier 1: CROPS pass (open source, forkable, no kill switches). Tier 2/3: differentiated by maturity, documentation, and ecosystem diffusion.",
+      "risks": "",
+      "evidenceLinks": [
+        {
+          "label": "PSE projects",
+          "url": "https://pse.dev/projects"
+        },
+        {
+          "label": "GitHub (PSE)",
+          "url": "https://github.com/privacy-ethereum"
+        }
+      ],
+      "lastUpdated": "2026-02-26T12:06:05.476Z"
+    },
+    {
+      "id": "sc-2026q1-mopro",
+      "projectId": "mopro",
+      "periodLabel": "2026 Q1",
+      "isCurrent": true,
+      "tier1": {
+        "overallStatus": "pass",
+        "override": {
+          "enabled": false,
+          "status": "pass",
+          "reason": ""
+        },
+        "criteria": {
+          "t1_crops_censorship_no_selective_exclusion": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_censorship_no_kill_switches": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_censorship_resistant_pressure": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_censorship_permissionless_broadcast": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_privileged_paths": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_hidden_specs": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_fully_auditable": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_fully_forkable": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_proprietary_blackbox": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_free_license": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_friction_fork_exit": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_data_not_exposed": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_viable_at_protocol": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_no_prove_for_privacy": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_avoid_data_capture_asymmetry": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_defaults_maximal": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_does_what_claims": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_rigorous_design": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_minimize_governance_override": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_minimize_complexity": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_no_new_migration_risks": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_protects_against_failure_coercion": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_limits_no_centralized_chokepoints": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_limits_no_decentralize_later_without_sunset": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          }
+        }
+      },
+      "tier2": {
+        "rollup": 0,
+        "criteria": {
+          "t2_sovereignty_final_authority": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_sovereignty_credible_exit": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_sovereignty_no_new_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_contributes_decentralization": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_increases_resilience": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_reduces_ef_reliance": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_walkaway_test": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_maximally_unstoppable": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_avoids_centralized_intermediaries": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_no_privileged_routing": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_no_secret_intermediary": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_no_whitelist_without_elimination": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_avoids_dependency_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_high_necessity_new_domains": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_crypto_over_social_trust": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_reusable_primitives": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_ux_without_control_points": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_social_avoids_private_capture": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_social_avoids_extraction_architectures": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_social_resilience_over_growth": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_prefer_crops_native": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_remove_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_user_controlled_defenses": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_no_uninspectable_ai": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_open_markets_over_whitelist": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          }
+        }
+      },
+      "tier3": {
+        "rollup": 0,
+        "criteria": {
+          "t3_scaling_expands_sovereignty": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_scaling_sovereignty_at_scale": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_scaling_not_at_crops_cost": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_focus": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_bottlenecks": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_prevents_chokepoints": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_sustainable_funding_gaps": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_designed_for_diffusion": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_transition_stewardship": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_reduces_ef_influence": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_no_permanent_dependency": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_upstream_high_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_reusable_primitives": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_shared_infra": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_durable_precedents": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_embodies_crops": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_technical_rigor": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_legible_documentation": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_publishes_early_openly": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_ships_reliability": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_right_association": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_encourages_independence": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_open_collab_over_moat": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_advances_ethereum_beyond_crypto": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_civilizational_infra": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_consumer_app_team": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_accreditation_authority": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_hype_price": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_kingmaker": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_tradeoff_evaluate_design_not_polish": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_tradeoff_skeptical_social_proof": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_thousand_year": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_no_principled_drift": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_sanctuary_infra": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_strengthens_agency": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          }
+        }
+      },
+      "summary": "Initial assessment based on public sources: pse.dev, GitHub repos, HackMD, project docs, and license (MIT/Apache-2.0). Tier 1: CROPS pass (open source, forkable, no kill switches). Tier 2/3: differentiated by maturity, documentation, and ecosystem diffusion.",
+      "risks": "",
+      "evidenceLinks": [
+        {
+          "label": "PSE projects",
+          "url": "https://pse.dev/projects"
+        },
+        {
+          "label": "GitHub (PSE)",
+          "url": "https://github.com/privacy-ethereum"
+        }
+      ],
+      "lastUpdated": "2026-02-26T12:06:05.502Z"
+    },
+    {
+      "id": "sc-2026q1-zkid",
+      "projectId": "zkid",
+      "periodLabel": "2026 Q1",
+      "isCurrent": true,
+      "tier1": {
+        "overallStatus": "pass",
+        "override": {
+          "enabled": false,
+          "status": "pass",
+          "reason": ""
+        },
+        "criteria": {
+          "t1_crops_censorship_no_selective_exclusion": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_censorship_no_kill_switches": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_censorship_resistant_pressure": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_censorship_permissionless_broadcast": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_privileged_paths": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_hidden_specs": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_fully_auditable": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_fully_forkable": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_proprietary_blackbox": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_free_license": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_friction_fork_exit": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_data_not_exposed": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_viable_at_protocol": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_no_prove_for_privacy": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_avoid_data_capture_asymmetry": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_defaults_maximal": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_does_what_claims": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_rigorous_design": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_minimize_governance_override": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_minimize_complexity": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_no_new_migration_risks": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_protects_against_failure_coercion": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_limits_no_centralized_chokepoints": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_limits_no_decentralize_later_without_sunset": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          }
+        }
+      },
+      "tier2": {
+        "rollup": 0,
+        "criteria": {
+          "t2_sovereignty_final_authority": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_sovereignty_credible_exit": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_sovereignty_no_new_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_contributes_decentralization": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_increases_resilience": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_reduces_ef_reliance": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_walkaway_test": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_maximally_unstoppable": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_avoids_centralized_intermediaries": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_no_privileged_routing": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_no_secret_intermediary": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_no_whitelist_without_elimination": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_avoids_dependency_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_high_necessity_new_domains": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_crypto_over_social_trust": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_reusable_primitives": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_ux_without_control_points": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_social_avoids_private_capture": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_social_avoids_extraction_architectures": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_social_resilience_over_growth": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_prefer_crops_native": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_remove_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_user_controlled_defenses": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_no_uninspectable_ai": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_open_markets_over_whitelist": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          }
+        }
+      },
+      "tier3": {
+        "rollup": 0,
+        "criteria": {
+          "t3_scaling_expands_sovereignty": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_scaling_sovereignty_at_scale": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_scaling_not_at_crops_cost": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_focus": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_bottlenecks": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_prevents_chokepoints": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_sustainable_funding_gaps": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_designed_for_diffusion": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_transition_stewardship": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_reduces_ef_influence": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_no_permanent_dependency": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_upstream_high_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_reusable_primitives": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_shared_infra": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_durable_precedents": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_embodies_crops": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_technical_rigor": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_legible_documentation": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_publishes_early_openly": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_ships_reliability": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_right_association": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_encourages_independence": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_open_collab_over_moat": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_advances_ethereum_beyond_crypto": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_civilizational_infra": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_consumer_app_team": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_accreditation_authority": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_hype_price": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_kingmaker": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_tradeoff_evaluate_design_not_polish": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_tradeoff_skeptical_social_proof": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_thousand_year": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_no_principled_drift": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_sanctuary_infra": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_strengthens_agency": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          }
+        }
+      },
+      "summary": "Initial assessment based on public sources: pse.dev, GitHub repos, HackMD, project docs, and license (MIT/Apache-2.0). Tier 1: CROPS pass (open source, forkable, no kill switches). Tier 2/3: differentiated by maturity, documentation, and ecosystem diffusion.",
+      "risks": "",
+      "evidenceLinks": [
+        {
+          "label": "PSE projects",
+          "url": "https://pse.dev/projects"
+        },
+        {
+          "label": "GitHub (PSE)",
+          "url": "https://github.com/privacy-ethereum"
+        }
+      ],
+      "lastUpdated": "2026-02-26T12:06:05.502Z"
+    },
+    {
+      "id": "sc-2026q1-tlsnotary",
+      "projectId": "tlsnotary",
+      "periodLabel": "2026 Q1",
+      "isCurrent": true,
+      "tier1": {
+        "overallStatus": "pass",
+        "override": {
+          "enabled": false,
+          "status": "pass",
+          "reason": ""
+        },
+        "criteria": {
+          "t1_crops_censorship_no_selective_exclusion": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_censorship_no_kill_switches": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_censorship_resistant_pressure": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_censorship_permissionless_broadcast": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_privileged_paths": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_hidden_specs": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_fully_auditable": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_fully_forkable": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_proprietary_blackbox": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_free_license": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_friction_fork_exit": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_data_not_exposed": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_viable_at_protocol": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_no_prove_for_privacy": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_avoid_data_capture_asymmetry": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_defaults_maximal": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_does_what_claims": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_rigorous_design": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_minimize_governance_override": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_minimize_complexity": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_no_new_migration_risks": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_protects_against_failure_coercion": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_limits_no_centralized_chokepoints": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_limits_no_decentralize_later_without_sunset": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          }
+        }
+      },
+      "tier2": {
+        "rollup": 0,
+        "criteria": {
+          "t2_sovereignty_final_authority": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_sovereignty_credible_exit": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_sovereignty_no_new_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_contributes_decentralization": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_increases_resilience": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_reduces_ef_reliance": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_walkaway_test": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_maximally_unstoppable": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_avoids_centralized_intermediaries": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_no_privileged_routing": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_no_secret_intermediary": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_no_whitelist_without_elimination": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_avoids_dependency_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_high_necessity_new_domains": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_crypto_over_social_trust": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_reusable_primitives": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_ux_without_control_points": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_social_avoids_private_capture": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_social_avoids_extraction_architectures": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_social_resilience_over_growth": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_prefer_crops_native": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_remove_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_user_controlled_defenses": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_no_uninspectable_ai": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_open_markets_over_whitelist": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          }
+        }
+      },
+      "tier3": {
+        "rollup": 0,
+        "criteria": {
+          "t3_scaling_expands_sovereignty": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_scaling_sovereignty_at_scale": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_scaling_not_at_crops_cost": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_focus": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_bottlenecks": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_prevents_chokepoints": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_sustainable_funding_gaps": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_designed_for_diffusion": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_transition_stewardship": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_reduces_ef_influence": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_no_permanent_dependency": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_upstream_high_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_reusable_primitives": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_shared_infra": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_durable_precedents": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_embodies_crops": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_technical_rigor": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_legible_documentation": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_publishes_early_openly": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_ships_reliability": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_right_association": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_encourages_independence": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_open_collab_over_moat": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_advances_ethereum_beyond_crypto": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_civilizational_infra": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_consumer_app_team": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_accreditation_authority": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_hype_price": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_kingmaker": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_tradeoff_evaluate_design_not_polish": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_tradeoff_skeptical_social_proof": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_thousand_year": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_no_principled_drift": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_sanctuary_infra": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_strengthens_agency": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          }
+        }
+      },
+      "summary": "Initial assessment based on public sources: pse.dev, GitHub repos, HackMD, project docs, and license (MIT/Apache-2.0). Tier 1: CROPS pass (open source, forkable, no kill switches). Tier 2/3: differentiated by maturity, documentation, and ecosystem diffusion.",
+      "risks": "",
+      "evidenceLinks": [
+        {
+          "label": "PSE projects",
+          "url": "https://pse.dev/projects"
+        },
+        {
+          "label": "GitHub (PSE)",
+          "url": "https://github.com/privacy-ethereum"
+        }
+      ],
+      "lastUpdated": "2026-02-26T12:06:05.502Z"
+    },
+    {
+      "id": "sc-2026q1-machina",
+      "projectId": "machina",
+      "periodLabel": "2026 Q1",
+      "isCurrent": true,
+      "tier1": {
+        "overallStatus": "needs_review",
+        "override": {
+          "enabled": false,
+          "status": "pass",
+          "reason": ""
+        },
+        "criteria": {
+          "t1_crops_censorship_no_selective_exclusion": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_censorship_no_kill_switches": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_censorship_resistant_pressure": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_censorship_permissionless_broadcast": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_privileged_paths": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_hidden_specs": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_fully_auditable": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_fully_forkable": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_proprietary_blackbox": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_free_license": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_friction_fork_exit": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_data_not_exposed": {
+            "status": "unknown",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_viable_at_protocol": {
+            "status": "unknown",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_no_prove_for_privacy": {
+            "status": "unknown",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_avoid_data_capture_asymmetry": {
+            "status": "unknown",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_defaults_maximal": {
+            "status": "unknown",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_does_what_claims": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_rigorous_design": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_minimize_governance_override": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_minimize_complexity": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_no_new_migration_risks": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_protects_against_failure_coercion": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_limits_no_centralized_chokepoints": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_limits_no_decentralize_later_without_sunset": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          }
+        }
+      },
+      "tier2": {
+        "rollup": 0,
+        "criteria": {
+          "t2_sovereignty_final_authority": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_sovereignty_credible_exit": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_sovereignty_no_new_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_contributes_decentralization": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_increases_resilience": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_reduces_ef_reliance": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_walkaway_test": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_maximally_unstoppable": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_avoids_centralized_intermediaries": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_no_privileged_routing": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_no_secret_intermediary": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_no_whitelist_without_elimination": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_avoids_dependency_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_high_necessity_new_domains": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_crypto_over_social_trust": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_reusable_primitives": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_ux_without_control_points": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_social_avoids_private_capture": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_social_avoids_extraction_architectures": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_social_resilience_over_growth": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_prefer_crops_native": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_remove_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_user_controlled_defenses": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_no_uninspectable_ai": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_open_markets_over_whitelist": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          }
+        }
+      },
+      "tier3": {
+        "rollup": 0,
+        "criteria": {
+          "t3_scaling_expands_sovereignty": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_scaling_sovereignty_at_scale": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_scaling_not_at_crops_cost": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_focus": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_bottlenecks": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_prevents_chokepoints": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_sustainable_funding_gaps": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_designed_for_diffusion": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_transition_stewardship": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_reduces_ef_influence": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_no_permanent_dependency": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_upstream_high_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_reusable_primitives": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_shared_infra": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_durable_precedents": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_embodies_crops": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_technical_rigor": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_legible_documentation": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_publishes_early_openly": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_ships_reliability": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_right_association": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_encourages_independence": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_open_collab_over_moat": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_advances_ethereum_beyond_crypto": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_civilizational_infra": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_consumer_app_team": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_accreditation_authority": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_hype_price": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_kingmaker": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_tradeoff_evaluate_design_not_polish": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_tradeoff_skeptical_social_proof": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_thousand_year": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_no_principled_drift": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_sanctuary_infra": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_strengthens_agency": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          }
+        }
+      },
+      "summary": "Initial assessment based on public sources: pse.dev, GitHub repos, HackMD, project docs, and license (MIT/Apache-2.0). Tier 1: CROPS pass (open source, forkable, no kill switches). Tier 2/3: differentiated by maturity, documentation, and ecosystem diffusion.",
+      "risks": "",
+      "evidenceLinks": [
+        {
+          "label": "PSE projects",
+          "url": "https://pse.dev/projects"
+        },
+        {
+          "label": "GitHub (PSE)",
+          "url": "https://github.com/privacy-ethereum"
+        }
+      ],
+      "lastUpdated": "2026-02-26T12:06:05.503Z"
+    },
+    {
+      "id": "sc-2026q1-ptr",
+      "projectId": "ptr",
+      "periodLabel": "2026 Q1",
+      "isCurrent": true,
+      "tier1": {
+        "overallStatus": "pass",
+        "override": {
+          "enabled": false,
+          "status": "pass",
+          "reason": ""
+        },
+        "criteria": {
+          "t1_crops_censorship_no_selective_exclusion": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_censorship_no_kill_switches": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_censorship_resistant_pressure": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_censorship_permissionless_broadcast": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_privileged_paths": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_hidden_specs": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_fully_auditable": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_fully_forkable": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_proprietary_blackbox": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_free_license": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_friction_fork_exit": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_data_not_exposed": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_viable_at_protocol": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_no_prove_for_privacy": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_avoid_data_capture_asymmetry": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_defaults_maximal": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_does_what_claims": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_rigorous_design": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_minimize_governance_override": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_minimize_complexity": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_no_new_migration_risks": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_protects_against_failure_coercion": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_limits_no_centralized_chokepoints": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_limits_no_decentralize_later_without_sunset": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          }
+        }
+      },
+      "tier2": {
+        "rollup": 0,
+        "criteria": {
+          "t2_sovereignty_final_authority": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_sovereignty_credible_exit": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_sovereignty_no_new_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_contributes_decentralization": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_increases_resilience": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_reduces_ef_reliance": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_walkaway_test": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_maximally_unstoppable": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_avoids_centralized_intermediaries": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_no_privileged_routing": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_no_secret_intermediary": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_no_whitelist_without_elimination": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_avoids_dependency_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_high_necessity_new_domains": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_crypto_over_social_trust": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_reusable_primitives": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_ux_without_control_points": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_social_avoids_private_capture": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_social_avoids_extraction_architectures": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_social_resilience_over_growth": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_prefer_crops_native": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_remove_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_user_controlled_defenses": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_no_uninspectable_ai": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_open_markets_over_whitelist": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          }
+        }
+      },
+      "tier3": {
+        "rollup": 0,
+        "criteria": {
+          "t3_scaling_expands_sovereignty": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_scaling_sovereignty_at_scale": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_scaling_not_at_crops_cost": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_focus": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_bottlenecks": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_prevents_chokepoints": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_sustainable_funding_gaps": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_designed_for_diffusion": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_transition_stewardship": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_reduces_ef_influence": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_no_permanent_dependency": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_upstream_high_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_reusable_primitives": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_shared_infra": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_durable_precedents": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_embodies_crops": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_technical_rigor": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_legible_documentation": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_publishes_early_openly": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_ships_reliability": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_right_association": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_encourages_independence": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_open_collab_over_moat": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_advances_ethereum_beyond_crypto": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_civilizational_infra": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_consumer_app_team": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_accreditation_authority": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_hype_price": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_kingmaker": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_tradeoff_evaluate_design_not_polish": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_tradeoff_skeptical_social_proof": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_thousand_year": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_no_principled_drift": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_sanctuary_infra": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_strengthens_agency": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          }
+        }
+      },
+      "summary": "Initial assessment based on public sources: pse.dev, GitHub repos, HackMD, project docs, and license (MIT/Apache-2.0). Tier 1: CROPS pass (open source, forkable, no kill switches). Tier 2/3: differentiated by maturity, documentation, and ecosystem diffusion.",
+      "risks": "",
+      "evidenceLinks": [
+        {
+          "label": "PSE projects",
+          "url": "https://pse.dev/projects"
+        },
+        {
+          "label": "GitHub (PSE)",
+          "url": "https://github.com/privacy-ethereum"
+        }
+      ],
+      "lastUpdated": "2026-02-26T12:06:05.503Z"
+    },
+    {
+      "id": "sc-2026q1-pte",
+      "projectId": "pte",
+      "periodLabel": "2026 Q1",
+      "isCurrent": true,
+      "tier1": {
+        "overallStatus": "needs_review",
+        "override": {
+          "enabled": false,
+          "status": "pass",
+          "reason": ""
+        },
+        "criteria": {
+          "t1_crops_censorship_no_selective_exclusion": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_censorship_no_kill_switches": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_censorship_resistant_pressure": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_censorship_permissionless_broadcast": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_privileged_paths": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_hidden_specs": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_fully_auditable": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_fully_forkable": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_proprietary_blackbox": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_free_license": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_friction_fork_exit": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_data_not_exposed": {
+            "status": "unknown",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_viable_at_protocol": {
+            "status": "unknown",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_no_prove_for_privacy": {
+            "status": "unknown",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_avoid_data_capture_asymmetry": {
+            "status": "unknown",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_defaults_maximal": {
+            "status": "unknown",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_does_what_claims": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_rigorous_design": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_minimize_governance_override": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_minimize_complexity": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_no_new_migration_risks": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_protects_against_failure_coercion": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_limits_no_centralized_chokepoints": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_limits_no_decentralize_later_without_sunset": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          }
+        }
+      },
+      "tier2": {
+        "rollup": 0,
+        "criteria": {
+          "t2_sovereignty_final_authority": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_sovereignty_credible_exit": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_sovereignty_no_new_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_contributes_decentralization": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_increases_resilience": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_reduces_ef_reliance": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_walkaway_test": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_maximally_unstoppable": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_avoids_centralized_intermediaries": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_no_privileged_routing": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_no_secret_intermediary": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_no_whitelist_without_elimination": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_avoids_dependency_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_high_necessity_new_domains": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_crypto_over_social_trust": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_reusable_primitives": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_ux_without_control_points": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_social_avoids_private_capture": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_social_avoids_extraction_architectures": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_social_resilience_over_growth": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_prefer_crops_native": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_remove_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_user_controlled_defenses": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_no_uninspectable_ai": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_open_markets_over_whitelist": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          }
+        }
+      },
+      "tier3": {
+        "rollup": 0,
+        "criteria": {
+          "t3_scaling_expands_sovereignty": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_scaling_sovereignty_at_scale": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_scaling_not_at_crops_cost": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_focus": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_bottlenecks": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_prevents_chokepoints": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_sustainable_funding_gaps": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_designed_for_diffusion": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_transition_stewardship": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_reduces_ef_influence": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_no_permanent_dependency": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_upstream_high_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_reusable_primitives": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_shared_infra": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_durable_precedents": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_embodies_crops": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_technical_rigor": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_legible_documentation": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_publishes_early_openly": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_ships_reliability": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_right_association": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_encourages_independence": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_open_collab_over_moat": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_advances_ethereum_beyond_crypto": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_civilizational_infra": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_consumer_app_team": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_accreditation_authority": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_hype_price": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_kingmaker": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_tradeoff_evaluate_design_not_polish": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_tradeoff_skeptical_social_proof": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_thousand_year": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_no_principled_drift": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_sanctuary_infra": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_strengthens_agency": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          }
+        }
+      },
+      "summary": "Initial assessment based on public sources: pse.dev, GitHub repos, HackMD, project docs, and license (MIT/Apache-2.0). Tier 1: CROPS pass (open source, forkable, no kill switches). Tier 2/3: differentiated by maturity, documentation, and ecosystem diffusion.",
+      "risks": "",
+      "evidenceLinks": [
+        {
+          "label": "PSE projects",
+          "url": "https://pse.dev/projects"
+        },
+        {
+          "label": "GitHub (PSE)",
+          "url": "https://github.com/privacy-ethereum"
+        }
+      ],
+      "lastUpdated": "2026-02-26T12:06:05.503Z"
+    },
+    {
+      "id": "sc-2026q1-iptf",
+      "projectId": "iptf",
+      "periodLabel": "2026 Q1",
+      "isCurrent": true,
+      "tier1": {
+        "overallStatus": "pass",
+        "override": {
+          "enabled": false,
+          "status": "pass",
+          "reason": ""
+        },
+        "criteria": {
+          "t1_crops_censorship_no_selective_exclusion": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_censorship_no_kill_switches": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_censorship_resistant_pressure": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_censorship_permissionless_broadcast": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_privileged_paths": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_hidden_specs": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_fully_auditable": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_fully_forkable": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_proprietary_blackbox": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_free_license": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_friction_fork_exit": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_data_not_exposed": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_viable_at_protocol": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_no_prove_for_privacy": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_avoid_data_capture_asymmetry": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_defaults_maximal": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_does_what_claims": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_rigorous_design": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_minimize_governance_override": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_minimize_complexity": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_no_new_migration_risks": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_protects_against_failure_coercion": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_limits_no_centralized_chokepoints": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_limits_no_decentralize_later_without_sunset": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          }
+        }
+      },
+      "tier2": {
+        "rollup": 0,
+        "criteria": {
+          "t2_sovereignty_final_authority": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_sovereignty_credible_exit": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_sovereignty_no_new_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_contributes_decentralization": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_increases_resilience": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_reduces_ef_reliance": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_walkaway_test": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_maximally_unstoppable": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_avoids_centralized_intermediaries": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_no_privileged_routing": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_no_secret_intermediary": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_no_whitelist_without_elimination": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_avoids_dependency_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_high_necessity_new_domains": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_crypto_over_social_trust": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_reusable_primitives": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_ux_without_control_points": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_social_avoids_private_capture": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_social_avoids_extraction_architectures": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_social_resilience_over_growth": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_prefer_crops_native": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_remove_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_user_controlled_defenses": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_no_uninspectable_ai": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_open_markets_over_whitelist": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          }
+        }
+      },
+      "tier3": {
+        "rollup": 0,
+        "criteria": {
+          "t3_scaling_expands_sovereignty": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_scaling_sovereignty_at_scale": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_scaling_not_at_crops_cost": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_focus": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_bottlenecks": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_prevents_chokepoints": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_sustainable_funding_gaps": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_designed_for_diffusion": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_transition_stewardship": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_reduces_ef_influence": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_no_permanent_dependency": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_upstream_high_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_reusable_primitives": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_shared_infra": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_durable_precedents": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_embodies_crops": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_technical_rigor": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_legible_documentation": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_publishes_early_openly": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_ships_reliability": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_right_association": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_encourages_independence": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_open_collab_over_moat": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_advances_ethereum_beyond_crypto": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_civilizational_infra": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_consumer_app_team": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_accreditation_authority": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_hype_price": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_kingmaker": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_tradeoff_evaluate_design_not_polish": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_tradeoff_skeptical_social_proof": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_thousand_year": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_no_principled_drift": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_sanctuary_infra": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_strengthens_agency": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          }
+        }
+      },
+      "summary": "Initial assessment based on public sources: pse.dev, GitHub repos, HackMD, project docs, and license (MIT/Apache-2.0). Tier 1: CROPS pass (open source, forkable, no kill switches). Tier 2/3: differentiated by maturity, documentation, and ecosystem diffusion.",
+      "risks": "",
+      "evidenceLinks": [
+        {
+          "label": "PSE projects",
+          "url": "https://pse.dev/projects"
+        },
+        {
+          "label": "GitHub (PSE)",
+          "url": "https://github.com/privacy-ethereum"
+        }
+      ],
+      "lastUpdated": "2026-02-26T12:06:05.503Z"
+    },
+    {
+      "id": "sc-2026q1-pir",
+      "projectId": "pir",
+      "periodLabel": "2026 Q1",
+      "isCurrent": true,
+      "tier1": {
+        "overallStatus": "pass",
+        "override": {
+          "enabled": false,
+          "status": "pass",
+          "reason": ""
+        },
+        "criteria": {
+          "t1_crops_censorship_no_selective_exclusion": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_censorship_no_kill_switches": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_censorship_resistant_pressure": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_censorship_permissionless_broadcast": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_privileged_paths": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_hidden_specs": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_fully_auditable": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_fully_forkable": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_proprietary_blackbox": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_free_license": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_friction_fork_exit": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_data_not_exposed": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_viable_at_protocol": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_no_prove_for_privacy": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_avoid_data_capture_asymmetry": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_defaults_maximal": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_does_what_claims": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_rigorous_design": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_minimize_governance_override": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_minimize_complexity": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_no_new_migration_risks": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_protects_against_failure_coercion": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_limits_no_centralized_chokepoints": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_limits_no_decentralize_later_without_sunset": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          }
+        }
+      },
+      "tier2": {
+        "rollup": 0,
+        "criteria": {
+          "t2_sovereignty_final_authority": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_sovereignty_credible_exit": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_sovereignty_no_new_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_contributes_decentralization": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_increases_resilience": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_reduces_ef_reliance": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_walkaway_test": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_maximally_unstoppable": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_avoids_centralized_intermediaries": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_no_privileged_routing": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_no_secret_intermediary": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_no_whitelist_without_elimination": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_avoids_dependency_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_high_necessity_new_domains": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_crypto_over_social_trust": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_reusable_primitives": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_ux_without_control_points": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_social_avoids_private_capture": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_social_avoids_extraction_architectures": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_social_resilience_over_growth": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_prefer_crops_native": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_remove_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_user_controlled_defenses": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_no_uninspectable_ai": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_open_markets_over_whitelist": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          }
+        }
+      },
+      "tier3": {
+        "rollup": 0,
+        "criteria": {
+          "t3_scaling_expands_sovereignty": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_scaling_sovereignty_at_scale": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_scaling_not_at_crops_cost": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_focus": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_bottlenecks": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_prevents_chokepoints": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_sustainable_funding_gaps": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_designed_for_diffusion": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_transition_stewardship": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_reduces_ef_influence": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_no_permanent_dependency": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_upstream_high_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_reusable_primitives": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_shared_infra": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_durable_precedents": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_embodies_crops": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_technical_rigor": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_legible_documentation": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_publishes_early_openly": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_ships_reliability": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_right_association": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_encourages_independence": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_open_collab_over_moat": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_advances_ethereum_beyond_crypto": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_civilizational_infra": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_consumer_app_team": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_accreditation_authority": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_hype_price": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_kingmaker": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_tradeoff_evaluate_design_not_polish": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_tradeoff_skeptical_social_proof": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_thousand_year": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_no_principled_drift": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_sanctuary_infra": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_strengthens_agency": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          }
+        }
+      },
+      "summary": "Initial assessment based on public sources: pse.dev, GitHub repos, HackMD, project docs, and license (MIT/Apache-2.0). Tier 1: CROPS pass (open source, forkable, no kill switches). Tier 2/3: differentiated by maturity, documentation, and ecosystem diffusion.",
+      "risks": "",
+      "evidenceLinks": [
+        {
+          "label": "PSE projects",
+          "url": "https://pse.dev/projects"
+        },
+        {
+          "label": "GitHub (PSE)",
+          "url": "https://github.com/privacy-ethereum"
+        }
+      ],
+      "lastUpdated": "2026-02-26T12:06:05.503Z"
+    },
+    {
+      "id": "sc-2026q1-ubt",
+      "projectId": "ubt",
+      "periodLabel": "2026 Q1",
+      "isCurrent": true,
+      "tier1": {
+        "overallStatus": "needs_review",
+        "override": {
+          "enabled": false,
+          "status": "pass",
+          "reason": ""
+        },
+        "criteria": {
+          "t1_crops_censorship_no_selective_exclusion": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_censorship_no_kill_switches": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_censorship_resistant_pressure": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_censorship_permissionless_broadcast": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_privileged_paths": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_hidden_specs": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_fully_auditable": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_fully_forkable": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_proprietary_blackbox": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_free_license": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_friction_fork_exit": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_data_not_exposed": {
+            "status": "unknown",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_viable_at_protocol": {
+            "status": "unknown",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_no_prove_for_privacy": {
+            "status": "unknown",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_avoid_data_capture_asymmetry": {
+            "status": "unknown",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_defaults_maximal": {
+            "status": "unknown",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_does_what_claims": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_rigorous_design": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_minimize_governance_override": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_minimize_complexity": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_no_new_migration_risks": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_protects_against_failure_coercion": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_limits_no_centralized_chokepoints": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_limits_no_decentralize_later_without_sunset": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          }
+        }
+      },
+      "tier2": {
+        "rollup": 0,
+        "criteria": {
+          "t2_sovereignty_final_authority": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_sovereignty_credible_exit": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_sovereignty_no_new_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_contributes_decentralization": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_increases_resilience": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_reduces_ef_reliance": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_walkaway_test": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_maximally_unstoppable": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_avoids_centralized_intermediaries": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_no_privileged_routing": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_no_secret_intermediary": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_no_whitelist_without_elimination": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_avoids_dependency_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_high_necessity_new_domains": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_crypto_over_social_trust": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_reusable_primitives": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_ux_without_control_points": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_social_avoids_private_capture": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_social_avoids_extraction_architectures": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_social_resilience_over_growth": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_prefer_crops_native": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_remove_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_user_controlled_defenses": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_no_uninspectable_ai": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_open_markets_over_whitelist": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          }
+        }
+      },
+      "tier3": {
+        "rollup": 0,
+        "criteria": {
+          "t3_scaling_expands_sovereignty": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_scaling_sovereignty_at_scale": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_scaling_not_at_crops_cost": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_focus": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_bottlenecks": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_prevents_chokepoints": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_sustainable_funding_gaps": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_designed_for_diffusion": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_transition_stewardship": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_reduces_ef_influence": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_no_permanent_dependency": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_upstream_high_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_reusable_primitives": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_shared_infra": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_durable_precedents": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_embodies_crops": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_technical_rigor": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_legible_documentation": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_publishes_early_openly": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_ships_reliability": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_right_association": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_encourages_independence": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_open_collab_over_moat": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_advances_ethereum_beyond_crypto": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_civilizational_infra": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_consumer_app_team": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_accreditation_authority": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_hype_price": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_kingmaker": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_tradeoff_evaluate_design_not_polish": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_tradeoff_skeptical_social_proof": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_thousand_year": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_no_principled_drift": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_sanctuary_infra": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_strengthens_agency": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          }
+        }
+      },
+      "summary": "Initial assessment based on public sources: pse.dev, GitHub repos, HackMD, project docs, and license (MIT/Apache-2.0). Tier 1: CROPS pass (open source, forkable, no kill switches). Tier 2/3: differentiated by maturity, documentation, and ecosystem diffusion.",
+      "risks": "",
+      "evidenceLinks": [
+        {
+          "label": "PSE projects",
+          "url": "https://pse.dev/projects"
+        },
+        {
+          "label": "GitHub (PSE)",
+          "url": "https://github.com/privacy-ethereum"
+        }
+      ],
+      "lastUpdated": "2026-02-26T12:06:05.503Z"
+    },
+    {
+      "id": "sc-2026q1-tor-js",
+      "projectId": "tor-js",
+      "periodLabel": "2026 Q1",
+      "isCurrent": true,
+      "tier1": {
+        "overallStatus": "pass",
+        "override": {
+          "enabled": false,
+          "status": "pass",
+          "reason": ""
+        },
+        "criteria": {
+          "t1_crops_censorship_no_selective_exclusion": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_censorship_no_kill_switches": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_censorship_resistant_pressure": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_censorship_permissionless_broadcast": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_privileged_paths": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_hidden_specs": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_fully_auditable": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_fully_forkable": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_proprietary_blackbox": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_free_license": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_opensource_no_friction_fork_exit": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_data_not_exposed": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_viable_at_protocol": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_no_prove_for_privacy": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_avoid_data_capture_asymmetry": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_privacy_defaults_maximal": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_does_what_claims": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_rigorous_design": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_minimize_governance_override": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_minimize_complexity": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_no_new_migration_risks": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_crops_security_protects_against_failure_coercion": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_limits_no_centralized_chokepoints": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t1_limits_no_decentralize_later_without_sunset": {
+            "status": "pass",
+            "notes": "",
+            "evidenceLinks": []
+          }
+        }
+      },
+      "tier2": {
+        "rollup": 0,
+        "criteria": {
+          "t2_sovereignty_final_authority": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_sovereignty_credible_exit": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_sovereignty_no_new_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_contributes_decentralization": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_increases_resilience": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_reduces_ef_reliance": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_resilience_walkaway_test": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_maximally_unstoppable": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_avoids_centralized_intermediaries": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_no_privileged_routing": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_no_secret_intermediary": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_no_whitelist_without_elimination": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_avoids_dependency_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_high_necessity_new_domains": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_crypto_over_social_trust": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_reusable_primitives": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tech_ux_without_control_points": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_social_avoids_private_capture": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_social_avoids_extraction_architectures": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_social_resilience_over_growth": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_prefer_crops_native": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_remove_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_user_controlled_defenses": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_no_uninspectable_ai": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t2_tradeoff_open_markets_over_whitelist": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          }
+        }
+      },
+      "tier3": {
+        "rollup": 0,
+        "criteria": {
+          "t3_scaling_expands_sovereignty": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_scaling_sovereignty_at_scale": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_scaling_not_at_crops_cost": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_focus": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_bottlenecks": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_prevents_chokepoints": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_only_ef_sustainable_funding_gaps": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_designed_for_diffusion": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_transition_stewardship": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_reduces_ef_influence": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_handoff_no_permanent_dependency": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_upstream_high_leverage": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_reusable_primitives": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_shared_infra": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_compounding_durable_precedents": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_embodies_crops": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_technical_rigor": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_legible_documentation": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_publishes_early_openly": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_ships_reliability": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_right_association": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_encourages_independence": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_open_collab_over_moat": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_advances_ethereum_beyond_crypto": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_social_civilizational_infra": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_consumer_app_team": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_accreditation_authority": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_hype_price": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_limits_not_kingmaker": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_tradeoff_evaluate_design_not_polish": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_tradeoff_skeptical_social_proof": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_thousand_year": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_no_principled_drift": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_sanctuary_infra": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          },
+          "t3_horizon_strengthens_agency": {
+            "score": 0,
+            "notes": "",
+            "evidenceLinks": []
+          }
+        }
+      },
+      "summary": "Initial assessment based on public sources: pse.dev, GitHub repos, HackMD, project docs, and license (MIT/Apache-2.0). Tier 1: CROPS pass (open source, forkable, no kill switches). Tier 2/3: differentiated by maturity, documentation, and ecosystem diffusion.",
+      "risks": "",
+      "evidenceLinks": [
+        {
+          "label": "PSE projects",
+          "url": "https://pse.dev/projects"
+        },
+        {
+          "label": "GitHub (PSE)",
+          "url": "https://github.com/privacy-ethereum"
+        }
+      ],
+      "lastUpdated": "2026-02-26T12:06:05.503Z"
+    }
+  ]
+}

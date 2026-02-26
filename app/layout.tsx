@@ -1,8 +1,7 @@
 import "@/globals.css"
 import { ThemeProvider } from "./components/layouts/ThemeProvider"
 import { GlobalProviderLayout } from "@/components/layouts/GlobalProviderLayout"
-import { SiteFooter } from "@/components/site-footer"
-import { SiteHeader } from "@/components/site-header"
+import { RootLayoutChrome } from "./components/RootLayoutChrome"
 import { TailwindIndicator } from "@/components/tailwind-indicator"
 import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
@@ -162,11 +161,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <body suppressHydrationWarning>
         <GlobalProviderLayout>
           <ThemeProvider>
-            <div className="relative flex min-h-screen flex-col">
-              <SiteHeader />
-              <div className="flex-1">{children}</div>
-              <SiteFooter />
-            </div>
+            <RootLayoutChrome>{children}</RootLayoutChrome>
             <TailwindIndicator />
           </ThemeProvider>
         </GlobalProviderLayout>

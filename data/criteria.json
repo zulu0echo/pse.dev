@@ -1,0 +1,844 @@
+{
+  "criteria": [
+    {
+      "key": "t1_crops_censorship_no_selective_exclusion",
+      "tier": 1,
+      "pillar": "CROPS",
+      "category": "Censorship Resistance",
+      "shortLabel": "No actor can selectively exclude valid use",
+      "fullText": "No single actor or small set of actors can selectively exclude valid use of the system.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "CROPS", "pageHint": 1 }
+    },
+    {
+      "key": "t1_crops_censorship_no_kill_switches",
+      "tier": 1,
+      "pillar": "CROPS",
+      "category": "Censorship Resistance",
+      "shortLabel": "No kill switches or centralized chokepoints",
+      "fullText": "No kill switches or centralized chokepoints that could deny access.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "CROPS", "pageHint": 1 }
+    },
+    {
+      "key": "t1_crops_censorship_resistant_pressure",
+      "tier": 1,
+      "pillar": "CROPS",
+      "category": "Censorship Resistance",
+      "shortLabel": "Resistant to extra-technical pressure",
+      "fullText": "Resistant to extra-technical pressure (legal, social) that could compromise censorship resistance.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "CROPS", "pageHint": 1 }
+    },
+    {
+      "key": "t1_crops_censorship_permissionless_broadcast",
+      "tier": 1,
+      "pillar": "CROPS",
+      "category": "Censorship Resistance",
+      "shortLabel": "Broadcast / propagation permissionless or escapable",
+      "fullText": "Broadcast and propagation remain permissionless or at least escapable.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "CROPS", "pageHint": 1 }
+    },
+    {
+      "key": "t1_crops_opensource_no_privileged_paths",
+      "tier": 1,
+      "pillar": "CROPS",
+      "category": "Open Source & Free",
+      "shortLabel": "No privileged code paths",
+      "fullText": "No privileged code paths that bypass normal execution.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "CROPS", "pageHint": 1 }
+    },
+    {
+      "key": "t1_crops_opensource_no_hidden_specs",
+      "tier": 1,
+      "pillar": "CROPS",
+      "category": "Open Source & Free",
+      "shortLabel": "No hidden specifications",
+      "fullText": "No hidden specifications; all behavior is documented or auditable.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "CROPS", "pageHint": 1 }
+    },
+    {
+      "key": "t1_crops_opensource_fully_auditable",
+      "tier": 1,
+      "pillar": "CROPS",
+      "category": "Open Source & Free",
+      "shortLabel": "Fully auditable",
+      "fullText": "System is fully auditable by third parties.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "CROPS", "pageHint": 1 }
+    },
+    {
+      "key": "t1_crops_opensource_fully_forkable",
+      "tier": 1,
+      "pillar": "CROPS",
+      "category": "Open Source & Free",
+      "shortLabel": "Fully forkable",
+      "fullText": "Fully forkable without legal or technical barriers.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "CROPS", "pageHint": 1 }
+    },
+    {
+      "key": "t1_crops_opensource_no_proprietary_blackbox",
+      "tier": 1,
+      "pillar": "CROPS",
+      "category": "Open Source & Free",
+      "shortLabel": "No proprietary black boxes",
+      "fullText": "No proprietary black boxes in the critical path.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "CROPS", "pageHint": 1 }
+    },
+    {
+      "key": "t1_crops_opensource_free_license",
+      "tier": 1,
+      "pillar": "CROPS",
+      "category": "Open Source & Free",
+      "shortLabel": "Free license (not source-available only)",
+      "fullText": "No 'source-available but not free' licensing; freedom to use, modify, distribute.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "CROPS", "pageHint": 1 }
+    },
+    {
+      "key": "t1_crops_opensource_no_friction_fork_exit",
+      "tier": 1,
+      "pillar": "CROPS",
+      "category": "Open Source & Free",
+      "shortLabel": "No friction to exit via forking",
+      "fullText": "No undue friction to exit via forking (legal, technical, or economic).",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "CROPS", "pageHint": 1 }
+    },
+    {
+      "key": "t1_crops_privacy_data_not_exposed",
+      "tier": 1,
+      "pillar": "CROPS",
+      "category": "Privacy",
+      "shortLabel": "User data not exposed beyond necessity",
+      "fullText": "User data is not exposed beyond what is strictly necessary.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "CROPS", "pageHint": 1 }
+    },
+    {
+      "key": "t1_crops_privacy_viable_at_protocol",
+      "tier": 1,
+      "pillar": "CROPS",
+      "category": "Privacy",
+      "shortLabel": "Privacy viable at protocol level",
+      "fullText": "Privacy is viable at the protocol level, not just as an optional add-on.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "CROPS", "pageHint": 1 }
+    },
+    {
+      "key": "t1_crops_privacy_no_prove_for_privacy",
+      "tier": 1,
+      "pillar": "CROPS",
+      "category": "Privacy",
+      "shortLabel": "Users not required to prove something for privacy",
+      "fullText": "Users are not required to prove something (identity, etc.) to obtain privacy.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "CROPS", "pageHint": 1 }
+    },
+    {
+      "key": "t1_crops_privacy_avoid_data_capture_asymmetry",
+      "tier": 1,
+      "pillar": "CROPS",
+      "category": "Privacy",
+      "shortLabel": "Avoid structural power asymmetries via data capture",
+      "fullText": "Avoids structural power asymmetries created by data capture.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "CROPS", "pageHint": 1 }
+    },
+    {
+      "key": "t1_crops_privacy_defaults_maximal",
+      "tier": 1,
+      "pillar": "CROPS",
+      "category": "Privacy",
+      "shortLabel": "Defaults trend toward maximal privacy",
+      "fullText": "Defaults trend toward maximal privacy where feasible.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "CROPS", "pageHint": 1 }
+    },
+    {
+      "key": "t1_crops_security_does_what_claims",
+      "tier": 1,
+      "pillar": "CROPS",
+      "category": "Security",
+      "shortLabel": "Does exactly what it claims",
+      "fullText": "Does exactly what it claims — no more, no less.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "CROPS", "pageHint": 1 }
+    },
+    {
+      "key": "t1_crops_security_rigorous_design",
+      "tier": 1,
+      "pillar": "CROPS",
+      "category": "Security",
+      "shortLabel": "Rigorously designed at protocol and application layers",
+      "fullText": "Rigorously designed at both protocol and application layers.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "CROPS", "pageHint": 1 }
+    },
+    {
+      "key": "t1_crops_security_minimize_governance_override",
+      "tier": 1,
+      "pillar": "CROPS",
+      "category": "Security",
+      "shortLabel": "Minimizes governance override of protocol guarantees",
+      "fullText": "Minimizes governance override of protocol guarantees.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "CROPS", "pageHint": 1 }
+    },
+    {
+      "key": "t1_crops_security_minimize_complexity",
+      "tier": 1,
+      "pillar": "CROPS",
+      "category": "Security",
+      "shortLabel": "Minimizes complexity where possible",
+      "fullText": "Minimizes complexity where possible to reduce attack surface.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "CROPS", "pageHint": 1 }
+    },
+    {
+      "key": "t1_crops_security_no_new_migration_risks",
+      "tier": 1,
+      "pillar": "CROPS",
+      "category": "Security",
+      "shortLabel": "Avoids introducing new migration risks to users",
+      "fullText": "Avoids introducing new migration risks to users.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "CROPS", "pageHint": 1 }
+    },
+    {
+      "key": "t1_crops_security_protects_against_failure_coercion",
+      "tier": 1,
+      "pillar": "CROPS",
+      "category": "Security",
+      "shortLabel": "Protects against technical failure, coercion, social entrapment",
+      "fullText": "Protects against technical failure, coercion, and social entrapment.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "CROPS", "pageHint": 1 }
+    },
+    {
+      "key": "t1_limits_no_centralized_chokepoints",
+      "tier": 1,
+      "pillar": "Limits",
+      "category": "Hard Limits",
+      "shortLabel": "Does not create centralized chokepoints",
+      "fullText": "Does not create centralized chokepoints in the ecosystem.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "We are NOT", "pageHint": 1 }
+    },
+    {
+      "key": "t1_limits_no_decentralize_later_without_sunset",
+      "tier": 1,
+      "pillar": "Limits",
+      "category": "Hard Limits",
+      "shortLabel": "No 'decentralize later' without enforceable sunset",
+      "fullText": "Avoids 'we will decentralize later' architectures without enforceable sunset.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Tradeoffs", "pageHint": 1 }
+    },
+    {
+      "key": "t2_sovereignty_final_authority",
+      "tier": 2,
+      "pillar": "Technical",
+      "category": "Self-Sovereignty",
+      "shortLabel": "Users have final authority over identities, assets, actions, agents",
+      "fullText": "Ensures users have final authority over identities, assets, actions, and agents.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Core Aims", "pageHint": 1 }
+    },
+    {
+      "key": "t2_sovereignty_credible_exit",
+      "tier": 2,
+      "pillar": "Technical",
+      "category": "Self-Sovereignty",
+      "shortLabel": "Preserves credible exit (forkability / escape hatch)",
+      "fullText": "Preserves credible exit (forkability / escape hatch).",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Core Aims", "pageHint": 1 }
+    },
+    {
+      "key": "t2_sovereignty_no_new_leverage",
+      "tier": 2,
+      "pillar": "Technical",
+      "category": "Self-Sovereignty",
+      "shortLabel": "Avoids introducing new leverage over users",
+      "fullText": "Avoids introducing new leverage over users.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Core Aims", "pageHint": 1 }
+    },
+    {
+      "key": "t2_resilience_contributes_decentralization",
+      "tier": 2,
+      "pillar": "Technical",
+      "category": "Resilience",
+      "shortLabel": "Contributes to Ethereum becoming/staying decentralized",
+      "fullText": "Contributes to Ethereum becoming or staying decentralized.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Core Aims", "pageHint": 1 }
+    },
+    {
+      "key": "t2_resilience_increases_resilience",
+      "tier": 2,
+      "pillar": "Technical",
+      "category": "Resilience",
+      "shortLabel": "Increases protocol or ecosystem resilience",
+      "fullText": "Increases protocol or ecosystem resilience.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Core Aims", "pageHint": 1 }
+    },
+    {
+      "key": "t2_resilience_reduces_ef_reliance",
+      "tier": 2,
+      "pillar": "Technical",
+      "category": "Resilience",
+      "shortLabel": "Reduces reliance on EF over time",
+      "fullText": "Reduces reliance on EF over time.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Core Aims", "pageHint": 1 }
+    },
+    {
+      "key": "t2_resilience_walkaway_test",
+      "tier": 2,
+      "pillar": "Technical",
+      "category": "Resilience",
+      "shortLabel": "Passes or strengthens the walkaway test",
+      "fullText": "Passes or strengthens the 'walkaway test' (users can leave without being locked in).",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Core Aims", "pageHint": 1 }
+    },
+    {
+      "key": "t2_tech_maximally_unstoppable",
+      "tier": 2,
+      "pillar": "Technical",
+      "category": "Leverage Removal",
+      "shortLabel": "Maximally unstoppable by design",
+      "fullText": "Maximally unstoppable by design.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Technical Pillar", "pageHint": 1 }
+    },
+    {
+      "key": "t2_tech_avoids_centralized_intermediaries",
+      "tier": 2,
+      "pillar": "Technical",
+      "category": "Leverage Removal",
+      "shortLabel": "Avoids centralized intermediaries",
+      "fullText": "Avoids centralized intermediaries.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Technical Pillar", "pageHint": 1 }
+    },
+    {
+      "key": "t2_tech_no_privileged_routing",
+      "tier": 2,
+      "pillar": "Technical",
+      "category": "Leverage Removal",
+      "shortLabel": "Avoids privileged routing or soft-default steering",
+      "fullText": "Avoids privileged routing, soft-default steering, or curated intermediary sets that create control leverage.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Technical Pillar", "pageHint": 1 }
+    },
+    {
+      "key": "t2_tech_no_secret_intermediary",
+      "tier": 2,
+      "pillar": "Technical",
+      "category": "Leverage Removal",
+      "shortLabel": "No secret-sauce intermediary layers",
+      "fullText": "No secret-sauce intermediary layers.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Technical Pillar", "pageHint": 1 }
+    },
+    {
+      "key": "t2_tech_no_whitelist_without_elimination",
+      "tier": 2,
+      "pillar": "Technical",
+      "category": "Leverage Removal",
+      "shortLabel": "No whitelisted provider sets without credible elimination path",
+      "fullText": "No whitelisted provider sets without a credible path to elimination.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Technical Pillar", "pageHint": 1 }
+    },
+    {
+      "key": "t2_tech_avoids_dependency_leverage",
+      "tier": 2,
+      "pillar": "Technical",
+      "category": "Leverage Removal",
+      "shortLabel": "Avoids dependency-heavy integrations that create leverage",
+      "fullText": "Avoids dependency-heavy integrations that create leverage.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Technical Pillar", "pageHint": 1 }
+    },
+    {
+      "key": "t2_tech_high_necessity_new_domains",
+      "tier": 2,
+      "pillar": "Technical",
+      "category": "Leverage Removal",
+      "shortLabel": "Clears high necessity threshold for new protocol domains",
+      "fullText": "Clears high necessity threshold for new protocol domains.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Technical Pillar", "pageHint": 1 }
+    },
+    {
+      "key": "t2_tech_crypto_over_social_trust",
+      "tier": 2,
+      "pillar": "Technical",
+      "category": "Leverage Removal",
+      "shortLabel": "Uses cryptographic guarantees rather than social trust",
+      "fullText": "Uses cryptographic guarantees rather than social trust where possible.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Technical Pillar", "pageHint": 1 }
+    },
+    {
+      "key": "t2_tech_reusable_primitives",
+      "tier": 2,
+      "pillar": "Technical",
+      "category": "Leverage Removal",
+      "shortLabel": "Builds reusable upstream primitives",
+      "fullText": "Builds reusable upstream primitives.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Technical Pillar", "pageHint": 1 }
+    },
+    {
+      "key": "t2_tech_ux_without_control_points",
+      "tier": 2,
+      "pillar": "Technical",
+      "category": "Leverage Removal",
+      "shortLabel": "Improves UX without adding control points",
+      "fullText": "Improves UX without adding control points.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Technical Pillar", "pageHint": 1 }
+    },
+    {
+      "key": "t2_social_avoids_private_capture",
+      "tier": 2,
+      "pillar": "Social",
+      "category": "Leverage Removal",
+      "shortLabel": "Avoids private capture",
+      "fullText": "Avoids private capture of value or control.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Social Pillar", "pageHint": 1 }
+    },
+    {
+      "key": "t2_social_avoids_extraction_architectures",
+      "tier": 2,
+      "pillar": "Social",
+      "category": "Leverage Removal",
+      "shortLabel": "Avoids extraction-oriented architectures",
+      "fullText": "Avoids extraction-oriented architectures.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Social Pillar", "pageHint": 1 }
+    },
+    {
+      "key": "t2_social_resilience_over_growth",
+      "tier": 2,
+      "pillar": "Social",
+      "category": "Leverage Removal",
+      "shortLabel": "Prioritizes resilience over user-count growth",
+      "fullText": "Prioritizes resilience over user-count growth.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Social Pillar", "pageHint": 1 }
+    },
+    {
+      "key": "t2_tradeoff_prefer_crops_native",
+      "tier": 2,
+      "pillar": "Tradeoffs",
+      "category": "Leverage Removal",
+      "shortLabel": "Prefer CROPS-native over faster incrementalist solutions",
+      "fullText": "When tensions arise, prefer fully CROPS-native solutions over faster incrementalist ones.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Tradeoffs", "pageHint": 1 }
+    },
+    {
+      "key": "t2_tradeoff_remove_leverage",
+      "tier": 2,
+      "pillar": "Tradeoffs",
+      "category": "Leverage Removal",
+      "shortLabel": "Remove leverage, do not introduce it temporarily",
+      "fullText": "Remove leverage; do not introduce it temporarily.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Tradeoffs", "pageHint": 1 }
+    },
+    {
+      "key": "t2_tradeoff_user_controlled_defenses",
+      "tier": 2,
+      "pillar": "Tradeoffs",
+      "category": "Leverage Removal",
+      "shortLabel": "Default to user-controlled defenses over paternalistic controls",
+      "fullText": "Default to user-controlled defenses over paternalistic controls.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Tradeoffs", "pageHint": 1 }
+    },
+    {
+      "key": "t2_tradeoff_no_uninspectable_ai",
+      "tier": 2,
+      "pillar": "Tradeoffs",
+      "category": "Leverage Removal",
+      "shortLabel": "Avoid uninspectable AI decision systems",
+      "fullText": "Avoid uninspectable AI decision systems in critical paths.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Tradeoffs", "pageHint": 1 }
+    },
+    {
+      "key": "t2_tradeoff_open_markets_over_whitelist",
+      "tier": 2,
+      "pillar": "Tradeoffs",
+      "category": "Leverage Removal",
+      "shortLabel": "Prefer open markets over curated whitelist systems",
+      "fullText": "Prefer open markets over curated whitelist systems.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Tradeoffs", "pageHint": 1 }
+    },
+    {
+      "key": "t3_scaling_expands_sovereignty",
+      "tier": 3,
+      "pillar": "Technical",
+      "category": "Subtraction & Diffusion",
+      "shortLabel": "Expands availability of unstoppable self-sovereignty",
+      "fullText": "Expands availability of unstoppable self-sovereignty.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Core Aims", "pageHint": 1 }
+    },
+    {
+      "key": "t3_scaling_sovereignty_at_scale",
+      "tier": 3,
+      "pillar": "Technical",
+      "category": "Subtraction & Diffusion",
+      "shortLabel": "Enables sovereignty-preserving coordination at scale",
+      "fullText": "Enables sovereignty-preserving coordination at scale.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Core Aims", "pageHint": 1 }
+    },
+    {
+      "key": "t3_scaling_not_at_crops_cost",
+      "tier": 3,
+      "pillar": "Technical",
+      "category": "Subtraction & Diffusion",
+      "shortLabel": "Does not scale at the cost of CROPS",
+      "fullText": "Does not scale at the cost of CROPS.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Core Aims", "pageHint": 1 }
+    },
+    {
+      "key": "t3_only_ef_focus",
+      "tier": 3,
+      "pillar": "Operating",
+      "category": "Only-EF Rule",
+      "shortLabel": "Focuses on tasks no other aligned actor will reliably do",
+      "fullText": "Focuses on tasks that no other aligned actor will reliably do.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Operating Approach", "pageHint": 1 }
+    },
+    {
+      "key": "t3_only_ef_bottlenecks",
+      "tier": 3,
+      "pillar": "Operating",
+      "category": "Only-EF Rule",
+      "shortLabel": "Addresses critical ecosystem bottlenecks",
+      "fullText": "Addresses critical ecosystem bottlenecks.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Operating Approach", "pageHint": 1 }
+    },
+    {
+      "key": "t3_only_ef_prevents_chokepoints",
+      "tier": 3,
+      "pillar": "Operating",
+      "category": "Only-EF Rule",
+      "shortLabel": "Prevents chokepoints",
+      "fullText": "Prevents chokepoints from forming.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Operating Approach", "pageHint": 1 }
+    },
+    {
+      "key": "t3_only_ef_sustainable_funding_gaps",
+      "tier": 3,
+      "pillar": "Operating",
+      "category": "Only-EF Rule",
+      "shortLabel": "Fills sustainable funding gaps only when necessary",
+      "fullText": "Fills sustainable funding gaps only when necessary.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Operating Approach", "pageHint": 1 }
+    },
+    {
+      "key": "t3_handoff_designed_for_diffusion",
+      "tier": 3,
+      "pillar": "Operating",
+      "category": "Handoff & Subtraction",
+      "shortLabel": "Designed for ecosystem diffusion",
+      "fullText": "Designed for ecosystem diffusion.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Operating Approach", "pageHint": 1 }
+    },
+    {
+      "key": "t3_handoff_transition_stewardship",
+      "tier": 3,
+      "pillar": "Operating",
+      "category": "Handoff & Subtraction",
+      "shortLabel": "Enables transition to community stewardship",
+      "fullText": "Enables transition to community stewardship.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Operating Approach", "pageHint": 1 }
+    },
+    {
+      "key": "t3_handoff_reduces_ef_influence",
+      "tier": 3,
+      "pillar": "Operating",
+      "category": "Handoff & Subtraction",
+      "shortLabel": "Reduces EF relative influence over time",
+      "fullText": "Reduces EF relative influence over time.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Operating Approach", "pageHint": 1 }
+    },
+    {
+      "key": "t3_handoff_no_permanent_dependency",
+      "tier": 3,
+      "pillar": "Operating",
+      "category": "Handoff & Subtraction",
+      "shortLabel": "Does not create permanent dependency",
+      "fullText": "Does not create permanent dependency on EF.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Operating Approach", "pageHint": 1 }
+    },
+    {
+      "key": "t3_compounding_upstream_high_leverage",
+      "tier": 3,
+      "pillar": "Operating",
+      "category": "Compounding Effects",
+      "shortLabel": "Upstream and high-leverage",
+      "fullText": "Upstream and high-leverage work.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Operating Approach", "pageHint": 1 }
+    },
+    {
+      "key": "t3_compounding_reusable_primitives",
+      "tier": 3,
+      "pillar": "Operating",
+      "category": "Compounding Effects",
+      "shortLabel": "Reusable primitives",
+      "fullText": "Creates reusable primitives for the ecosystem.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Operating Approach", "pageHint": 1 }
+    },
+    {
+      "key": "t3_compounding_shared_infra",
+      "tier": 3,
+      "pillar": "Operating",
+      "category": "Compounding Effects",
+      "shortLabel": "Improves shared infrastructure",
+      "fullText": "Improves shared infrastructure.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Operating Approach", "pageHint": 1 }
+    },
+    {
+      "key": "t3_compounding_durable_precedents",
+      "tier": 3,
+      "pillar": "Operating",
+      "category": "Compounding Effects",
+      "shortLabel": "Creates durable precedents for CROPS",
+      "fullText": "Creates durable precedents for CROPS.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Operating Approach", "pageHint": 1 }
+    },
+    {
+      "key": "t3_social_embodies_crops",
+      "tier": 3,
+      "pillar": "Social",
+      "category": "Principled Alignment",
+      "shortLabel": "Work embodies CROPS in practice, not rhetoric",
+      "fullText": "Work embodies CROPS in practice, not just rhetoric.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Social Pillar", "pageHint": 1 }
+    },
+    {
+      "key": "t3_social_technical_rigor",
+      "tier": 3,
+      "pillar": "Social",
+      "category": "Discipline",
+      "shortLabel": "Technical rigor",
+      "fullText": "Technical rigor in design and implementation.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Social Pillar", "pageHint": 1 }
+    },
+    {
+      "key": "t3_social_legible_documentation",
+      "tier": 3,
+      "pillar": "Social",
+      "category": "Discipline",
+      "shortLabel": "Legible documentation",
+      "fullText": "Legible documentation.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Social Pillar", "pageHint": 1 }
+    },
+    {
+      "key": "t3_social_publishes_early_openly",
+      "tier": 3,
+      "pillar": "Social",
+      "category": "Discipline",
+      "shortLabel": "Publishes early and openly",
+      "fullText": "Publishes early and openly.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Social Pillar", "pageHint": 1 }
+    },
+    {
+      "key": "t3_social_ships_reliability",
+      "tier": 3,
+      "pillar": "Social",
+      "category": "Discipline",
+      "shortLabel": "Ships mission-critical reliability",
+      "fullText": "Ships mission-critical reliability.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Social Pillar", "pageHint": 1 }
+    },
+    {
+      "key": "t3_social_right_association",
+      "tier": 3,
+      "pillar": "Social",
+      "category": "Right Association",
+      "shortLabel": "Works with principled, aligned actors",
+      "fullText": "Works with principled, aligned actors.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Social Pillar", "pageHint": 1 }
+    },
+    {
+      "key": "t3_social_encourages_independence",
+      "tier": 3,
+      "pillar": "Social",
+      "category": "Right Association",
+      "shortLabel": "Encourages independence from EF over time",
+      "fullText": "Encourages independence from EF over time.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Social Pillar", "pageHint": 1 }
+    },
+    {
+      "key": "t3_social_open_collab_over_moat",
+      "tier": 3,
+      "pillar": "Social",
+      "category": "Right Association",
+      "shortLabel": "Prefers open collaboration over branded moat",
+      "fullText": "Prefers open collaboration over branded moat.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Social Pillar", "pageHint": 1 }
+    },
+    {
+      "key": "t3_social_advances_ethereum_beyond_crypto",
+      "tier": 3,
+      "pillar": "Social",
+      "category": "Big Picture",
+      "shortLabel": "Advances Ethereum beyond narrow crypto use cases",
+      "fullText": "Advances Ethereum beyond narrow crypto use cases.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Social Pillar", "pageHint": 1 }
+    },
+    {
+      "key": "t3_social_civilizational_infra",
+      "tier": 3,
+      "pillar": "Social",
+      "category": "Big Picture",
+      "shortLabel": "Contributes to civilizational infrastructure",
+      "fullText": "Contributes to civilizational infrastructure.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Social Pillar", "pageHint": 1 }
+    },
+    {
+      "key": "t3_limits_not_consumer_app_team",
+      "tier": 3,
+      "pillar": "Limits",
+      "category": "Explicit Limits",
+      "shortLabel": "Does not build consumer apps as corporate product team",
+      "fullText": "Does not build consumer apps as a corporate-style product team.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "We are NOT", "pageHint": 1 }
+    },
+    {
+      "key": "t3_limits_not_accreditation_authority",
+      "tier": 3,
+      "pillar": "Limits",
+      "category": "Explicit Limits",
+      "shortLabel": "Does not act as accreditation authority",
+      "fullText": "Does not act as accreditation authority.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "We are NOT", "pageHint": 1 }
+    },
+    {
+      "key": "t3_limits_not_hype_price",
+      "tier": 3,
+      "pillar": "Limits",
+      "category": "Explicit Limits",
+      "shortLabel": "Does not promote hype or price action",
+      "fullText": "Does not promote hype or price action.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "We are NOT", "pageHint": 1 }
+    },
+    {
+      "key": "t3_limits_not_kingmaker",
+      "tier": 3,
+      "pillar": "Limits",
+      "category": "Explicit Limits",
+      "shortLabel": "Does not become kingmaker for specific private entities",
+      "fullText": "Does not become a kingmaker for specific private entities.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "We are NOT", "pageHint": 1 }
+    },
+    {
+      "key": "t3_tradeoff_evaluate_design_not_polish",
+      "tier": 3,
+      "pillar": "Tradeoffs",
+      "category": "Decision Heuristics",
+      "shortLabel": "Evaluate revealed design tradeoffs, not language polish",
+      "fullText": "Evaluate revealed design tradeoffs, not language polish.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Tradeoffs", "pageHint": 1 }
+    },
+    {
+      "key": "t3_tradeoff_skeptical_social_proof",
+      "tier": 3,
+      "pillar": "Tradeoffs",
+      "category": "Decision Heuristics",
+      "shortLabel": "Skeptical of social proof before technical scrutiny",
+      "fullText": "Be skeptical of social proof before technical scrutiny.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Tradeoffs", "pageHint": 1 }
+    },
+    {
+      "key": "t3_horizon_thousand_year",
+      "tier": 3,
+      "pillar": "Horizon",
+      "category": "Long-Horizon",
+      "shortLabel": "Designed for a thousand-year horizon",
+      "fullText": "Designed for a thousand-year horizon.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Long-Horizon", "pageHint": 1 }
+    },
+    {
+      "key": "t3_horizon_no_principled_drift",
+      "tier": 3,
+      "pillar": "Horizon",
+      "category": "Long-Horizon",
+      "shortLabel": "Avoids principled drift",
+      "fullText": "Avoids principled drift.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Long-Horizon", "pageHint": 1 }
+    },
+    {
+      "key": "t3_horizon_sanctuary_infra",
+      "tier": 3,
+      "pillar": "Horizon",
+      "category": "Long-Horizon",
+      "shortLabel": "Builds sanctuary infrastructure (permissionless compute + communication)",
+      "fullText": "Builds sanctuary infrastructure (permissionless compute and communication).",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Long-Horizon", "pageHint": 1 }
+    },
+    {
+      "key": "t3_horizon_strengthens_agency",
+      "tier": 3,
+      "pillar": "Horizon",
+      "category": "Long-Horizon",
+      "shortLabel": "Strengthens user agency under adversarial environments",
+      "fullText": "Strengthens user agency under adversarial environments.",
+      "weight": 1,
+      "source": { "doc": "EF Mandate v1.4", "section": "Long-Horizon", "pageHint": 1 }
+    }
+  ]
+}

@@ -35,4 +35,8 @@ export const siteConfig = {
     `https://github.com/privacy-ethereum/website-v2/blob/main/content/projects/${id}.md`,
   editBlogPage: (slug: string) =>
     `https://github.com/privacy-ethereum/website-v2/blob/main/content/articles/${slug}.md`,
+  /** Base URL for CROPS/mandate source links (rollup, schemas). */
+  cropsSourceBase:
+    process.env.NEXT_PUBLIC_CROPS_SOURCE_BASE ??
+    "https://github.com/privacy-ethereum/pse.dev/blob/main",
 }

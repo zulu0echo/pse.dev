@@ -7,6 +7,8 @@ projectStatus: "active"
 category: "research"
 tldr: "Mapping out the ZK-SNARKs ecosystem, evaluating ZKP solutions using standardized and reproducible benchmarks, and advancing the most promising ZKP stacks with developer-friendly tooling to lower adoption barriers, enabling efficient client-side ZKP applications."
 license: "MIT"
+links:
+  github: "https://github.com/privacy-ethereum/csp-benchmarks"
 tags:
   keywords: ["Zero Knowledge", "Mobile", "Privacy", "Digital Identity"]
   themes: ["build", "research"]

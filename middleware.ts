@@ -7,6 +7,14 @@ const LANGUAGE_CODES = ["en", "it", "de", "es", "fr", "ja", "ko"]
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl
 
+  // CROPS admin: require session except on login page
+  if (pathname.startsWith("/crops/admin") && !pathname.startsWith("/crops/admin/login")) {
+    const session = request.cookies.get("mandate_admin_session")?.value
+    if (!session) {
+      return NextResponse.redirect(new URL("/crops/admin/login", request.url))
+    }
+  }
+
   if (LANGUAGE_CODES.includes(pathname.slice(1))) {
     return NextResponse.redirect(new URL("/", request.url))
   }
@@ -31,6 +39,9 @@ export function middleware(request: NextRequest) {
 
 export const config = {
   matcher: [
+    // CROPS admin (auth check)
+    "/crops/admin",
+    "/crops/admin/:path*",
     // Match exact language codes (e.g., /en, /fr)
     "/en",
     "/it",
