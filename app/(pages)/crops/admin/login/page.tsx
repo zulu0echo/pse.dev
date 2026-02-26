@@ -1,9 +1,9 @@
 "use client"
 
-import { useState } from "react"
+import { Suspense, useState } from "react"
 import { useRouter, useSearchParams } from "next/navigation"
 
-export default function MandateAdminLoginPage() {
+function LoginForm() {
   const [username, setUsername] = useState("")
   const [password, setPassword] = useState("")
   const [error, setError] = useState("")
@@ -81,5 +81,13 @@ export default function MandateAdminLoginPage() {
         </button>
       </form>
     </div>
+  )
+}
+
+export default function MandateAdminLoginPage() {
+  return (
+    <Suspense fallback={<div className="mx-auto max-w-sm animate-pulse rounded-lg border border-neutral-200 bg-neutral-100 p-6 dark:border-neutral-800 dark:bg-neutral-800" />}>
+      <LoginForm />
+    </Suspense>
   )
 }

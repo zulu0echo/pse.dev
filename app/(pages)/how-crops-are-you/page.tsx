@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect, useCallback } from "react"
+import { Suspense, useState, useEffect, useCallback } from "react"
 import Link from "next/link"
 import { useSearchParams } from "next/navigation"
 import type { CropAnalysis } from "@/lib/crops-analyzer/types"
@@ -27,7 +27,7 @@ function saveLocalAnalyses(list: CropAnalysis[]) {
   } catch {}
 }
 
-export default function HowCropsAreYouPage() {
+function HowCropsAreYouContent() {
   const searchParams = useSearchParams()
   const repoParam = searchParams.get("repo") ?? ""
   const [repoUrl, setRepoUrl] = useState("")
@@ -355,5 +355,13 @@ export default function HowCropsAreYouPage() {
         )}
       </section>
     </div>
+  )
+}
+
+export default function HowCropsAreYouPage() {
+  return (
+    <Suspense fallback={<div className="mx-auto max-w-3xl space-y-8 py-8 animate-pulse text-neutral-400">Loading…</div>}>
+      <HowCropsAreYouContent />
+    </Suspense>
   )
 }
